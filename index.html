@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Card - Chocolate Cake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="recipe-card">
+    <h1 class="title">Chocolate Cake</h1>
+    <img src="https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/40-hersheys-deep-dark-chocolate-cake.jpg" alt="Chocolate Cake" class="recipe-img">
+
+    <div class="info">
+      <p><strong>Prep Time:</strong> 45 mins</p>
+      <p><strong>Servings:</strong> 6</p>
+    </div>
+
+    <button class="toggle-btn" onclick="toggleIngredients()">Show Ingredients</button>
+    <ul id="ingredients" class="hidden">
+      <li>2 cups flour</li>
+      <li>1 cup sugar</li>
+      <li>1 cup cocoa powder</li>
+      <li>2 eggs</li>
+      <li>1 cup milk</li>
+    </ul>
+
+    <button class="toggle-btn" onclick="toggleSteps()">Show Steps</button>
+    <ol id="steps" class="hidden">
+      <li>Preheat oven to 180°C.</li>
+      <li>Mix dry ingredients together.</li>
+      <li>Add eggs and milk, stir well.</li>
+      <li>Pour batter into a baking dish.</li>
+      <li>Bake for 30 minutes, then cool.</li>
+    </ol>
+
+    <div class="progress">
+      <div id="progress-bar"></div>
+    </div>
+
+    <button id="start-btn" class="action-btn">Start Cooking</button>
+    <button id="next-btn" class="action-btn hidden">Next Step</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

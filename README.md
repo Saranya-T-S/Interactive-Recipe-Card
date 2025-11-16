@@ -19,3 +19,6 @@ Simple recipe layout
 -CSS3
 
 -JavaScript
+
+output:
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/3588f2a1-ab74-4a7e-8b52-07802f131cbc" />
